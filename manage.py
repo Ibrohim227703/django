@@ -20,5 +20,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+<<<<<<< HEAD
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'projectName.settings')
+=======
+>>>>>>> df64f03ad7d13215ebb7d4d82badd2ff54f65456

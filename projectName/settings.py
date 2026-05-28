@@ -9,12 +9,18 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+<<<<<<< HEAD
 import os
 
 
 from pathlib import Path
 
 
+=======
+
+from pathlib import Path
+
+>>>>>>> df64f03ad7d13215ebb7d4d82badd2ff54f65456
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -28,9 +34,13 @@ SECRET_KEY = 'django-insecure-%ssp-q(!ydd&08mxt0h6-744z-a@92#$d1ta0ew)!o3ecnl79r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 ALLOWED_HOSTS = ['*']
 
+=======
+ALLOWED_HOSTS = []
+>>>>>>> df64f03ad7d13215ebb7d4d82badd2ff54f65456
 
 
 # Application definition
@@ -46,7 +56,10 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',
+=======
+>>>>>>> df64f03ad7d13215ebb7d4d82badd2ff54f65456
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -122,8 +135,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+<<<<<<< HEAD
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+=======
+STATIC_URL = 'static/'
+>>>>>>> df64f03ad7d13215ebb7d4d82badd2ff54f65456
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
